@@ -1,0 +1,204 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+div {
+}
+
+body {
+  background-color: lightseagreen;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+  height: 95px;
+  display: flex;
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
+}
+.header-link {
+  margin: auto;
+}
+
+.introducing{
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  min-width: 800px;
+  max-height: 400px;
+  margin: auto;
+}
+
+.introducing-image {
+  width: 400px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.my-skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.skills-text{
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  color: darkorchid;
+  font-weight: bold;
+}
+
+.skills-text-h2{
+  margin: auto;
+}
+
+.skills-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.card {
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+  background-color: lawngreen;
+}
+
+.python-card{
+  background-image: url('/img/python.png');
+}
+
+.java-card {
+  background-image: url('/img/java.png');
+}
+.postgresql-card {
+  background-image: url('/img/postgresql.png');
+}
+.git-card {
+  background-image: url('/img/git.png');
+}
+
+.learning-now {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.learning-text {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  color: darkorchid;
+  font-weight: bold;
+}
+
+.learning-text-h2 {
+  margin: auto;
+}
+
+.learning-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.html-card{
+  background-image: url('/img/html.png');
+}
+
+.css-card {
+  background-image: url('/img/css.png');
+}
+
+.js-card {
+  background-image: url('/img/js.png');
+}
+
+.typescript-card {
+  background-image: url('/img/typescript.png');
+}
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact-text {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  color: darkorchid;
+  font-weight: bold;
+}
+.contact-text-h2 {
+  margin: auto;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-email, .contact-message {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px;
+}
+.submit-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  height: 95px;
+  justify-content: center;
+  width: 100%;
+  min-width: 200px;
+  background-color: slategray;
+  margin-top: auto;
+}
+
+.footer-text {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
